@@ -1,38 +1,96 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
-const Navbar = props => {
-  const { branding } = props;
-  return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-primary mb-3 py-0">
-      <div className="container">
-        <a href="/" className="navbar-brand">
-          {branding}
-        </a>
-        <div>
-          <ul className="navbar-nav mr-auto">
-            <li className="nav-item">
-              <Link to="/" className="nav-link">
-                <i className="fas fa-home" /> Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/experience" className="nav-link">
-                <i className="fas fa-plus" /> Experience
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/education" className="nav-link">
-                <i className="fas fa-question" /> Education
-              </Link>
-            </li>
-          </ul>
+class Navbar extends Component {
+  constructor(props) {
+    super(props);
+    this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.state = {
+      collapsed: true
+    };
+  }
+  toggleNavbar() {
+    this.setState({
+      collapsed: !this.state.collapsed
+    });
+  }
+  render() {
+    // Navbar name
+    const { branding } = this.props;
+
+    //Navbar style
+    const navbarStyle = { marginBottom: '20px' };
+    // Navbar toggle styles
+    const collapsed = this.state.collapsed;
+    const classOne = collapsed
+      ? 'collapse navbar-collapse'
+      : 'collapse navbar-collapse show';
+    const classTwo = collapsed
+      ? 'navbar-toggler navbar-toggler-right collapsed'
+      : 'navbar-toggler navbar-toggler-right';
+
+    return (
+      <nav
+        className="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-primary"
+        style={navbarStyle}
+        id="cvNavbar"
+      >
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#" id="cvNavbarBrand">
+            {branding}
+          </a>
+          <button
+            onClick={this.toggleNavbar}
+            className={`${classTwo}`}
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon" />
+          </button>
+          <div className={`${classOne}`} id="navbarResponsive">
+            <ul className="navbar-nav" id="cvNavItems">
+              <li className="nav-item active">
+                <Link className="nav-link" to="/">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="#basicInfo">
+                  Basic Info
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="#experienceSection">
+                  Experience
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/education">
+                  Education
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/courses">
+                  Courses
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/projects">
+                  Projects
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  );
-};
+      </nav>
+    );
+  }
+}
 
 Navbar.defaultProps = {
   branding: 'My App'

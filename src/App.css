@@ -30,3 +30,43 @@
     transform: rotate(360deg);
   }
 } */
+
+/* Navbar styles */
+
+#cvNavbarBrand {
+  font-size: 25px;
+}
+
+#cvNavItems {
+  font-size: 17px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .container {
+  padding-top: 80px;
+}
+
+/* Home styles */
+
+#cvPhoto {
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+
+@media (max-width: 400px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  #cvPhoto {
+    width: 200px;
+    height: 200px;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

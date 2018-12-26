@@ -1,4 +1,4 @@
-import { GET_EXPERIENCE } from '../actions/types';
+import { GET_EXPERIENCES } from '../actions/types';
 
 const initialState = {
   experiences: [],
@@ -7,10 +7,10 @@ const initialState = {
 
 export default function(state = initialState, action) {
   switch (action.type) {
-    case GET_EXPERIENCE:
+    case GET_EXPERIENCES:
       return {
         ...state,
-        experience: action.payload
+        experiences: action.payload
       };
     default:
       return state;

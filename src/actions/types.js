@@ -1,1 +1,1 @@
-export const GET_EXPERIENCE = 'GET_EXPERIENCE';
+export const GET_EXPERIENCES = 'GET_EXPERIENCE';
