@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Bachelor's degree",
+    "institution": "Universidad de La Laguna",
+    "institutionLogo": "institutions/ull.jpg",
+    "location": "San Cristóbal de La Laguna, Tenerife, Spain",
+    "from": "2013",
+    "to": "2017",
+    "description": ""
+  }
+]

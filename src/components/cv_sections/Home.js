@@ -2,6 +2,7 @@ import React from 'react';
 
 import BasicData from './BasicData';
 import Experiences from './Experiences';
+import Educations from './Educations';
 
 export default function Home() {
   return (
@@ -23,6 +24,10 @@ export default function Home() {
 
       <section>
         <Experiences />
+      </section>
+
+      <section>
+        <Educations />
       </section>
     </React.Fragment>
   );

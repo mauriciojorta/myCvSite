@@ -62,6 +62,10 @@
   float: right;
 }
 
+section {
+  margin-bottom: 20px;
+}
+
 @media (max-width: 400px) {
   #cvPhoto {
     width: 200px;
@@ -81,11 +85,27 @@
     margin-right: auto;
     margin-bottom: 5px;
   }
+
+  .educationLogo {
+    width: 120px;
+    height: 120px;
+    box-shadow: 5px 5px #007bff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
 }
 
 /* Experience styles */
 
 .experienceLogo {
+  width: 120px;
+  height: 120px;
+  box-shadow: 5px 5px #007bff;
+}
+
+.educationLogo {
   width: 120px;
   height: 120px;
   box-shadow: 5px 5px #007bff;

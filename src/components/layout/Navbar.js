@@ -71,18 +71,18 @@ class Navbar extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/education">
+                <Link className="nav-link" to="#educationSection">
                   Education
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/courses">
-                  Courses
+                <Link className="nav-link" to="#">
+                  Licenses and Certifications
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/projects">
-                  Projects
+                <Link className="nav-link" to="#">
+                  Play a game
                 </Link>
               </li>
             </ul>

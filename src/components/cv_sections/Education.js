@@ -2,48 +2,48 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-class Experience extends Component {
+class Education extends Component {
   state = {
-    showExperienceInfo: false
+    showEducationInfo: false
   };
 
   render() {
     const {
       id,
       title,
-      company,
-      companyLogo,
+      institution,
+      institutionLogo,
       location,
       from,
       to,
       description
-    } = this.props.experience;
-    const { showExperienceInfo } = this.state;
+    } = this.props.education;
+    const { showEducationInfo } = this.state;
 
     return (
       <div className="card card-body mb-3 cardShadow">
         <div className="row">
           <div className="col-md-3">
             <img
-              src={companyLogo}
-              alt="Company logo"
-              className="img-thumbnail experienceLogo"
+              src={institutionLogo}
+              alt="Institution logo"
+              className="img-thumbnail educationLogo"
             />
           </div>
           <div className="col-md-9">
             <h4>
-              {from} to {to} - {title} at {company}{' '}
+              {from} to {to} - {title} at {institution}{' '}
               <i
                 onClick={() =>
                   this.setState({
-                    showExperienceInfo: !this.state.showExperienceInfo
+                    showEducationInfo: !this.state.showEducationInfo
                   })
                 }
                 className="fas fa-sort-down"
                 style={{ cursor: 'pointer' }}
               />
             </h4>
-            {showExperienceInfo ? (
+            {showEducationInfo ? (
               <ul className="list-group">
                 <li className="list-group-item">
                   <b>Location:</b> {location}
@@ -60,8 +60,8 @@ class Experience extends Component {
   }
 }
 
-Experience.propTypes = {
-  experience: PropTypes.object.isRequired
+Education.propTypes = {
+  education: PropTypes.object.isRequired
 };
 
-export default connect()(Experience);
+export default connect()(Education);
