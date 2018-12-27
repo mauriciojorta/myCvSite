@@ -6,7 +6,12 @@ export default function BasicData() {
     <div id="basicInfo">
       <h2 className="display-4 mb-3">Basic info</h2>
       <ul className="lead">
-        <img src={cvPhoto} alt="Photo" className="img-thumbnail" id="cvPhoto" />
+        <img
+          src={cvPhoto}
+          alt="My profile picture"
+          className="img-thumbnail"
+          id="cvPhoto"
+        />
         <li>
           <b>Name: </b> Mauricio José
         </li>
@@ -24,6 +29,7 @@ export default function BasicData() {
           <a
             href="mailto:mauriciojorta94@gmail.com?subject = Feedback&body = Message"
             target="_blank"
+            rel="noopener noreferrer"
           >
             mauriciojorta94@gmail.com
           </a>
@@ -33,6 +39,7 @@ export default function BasicData() {
           <a
             href="https://www.linkedin.com/in/mauricio-orta-b20a9889/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             My LinkedIn Profile
           </a>

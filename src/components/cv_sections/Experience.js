@@ -12,6 +12,7 @@ class Experience extends Component {
       id,
       title,
       company,
+      companyLogo,
       location,
       from,
       to,
@@ -20,27 +21,40 @@ class Experience extends Component {
     const { showExperienceInfo } = this.state;
 
     return (
-      <div className="card card-body mb-3">
-        <h4>
-          {title} at {company}
-          <i
-            onClick={() =>
-              this.setState({
-                showExperienceInfo: !this.state.showExperienceInfo
-              })
-            }
-            className="fas fa-sort-down"
-            style={{ cursor: 'pointer' }}
-          />
-        </h4>
-        {showExperienceInfo ? (
-          <ul className="list-group">
-            <li className="list-group-item">From: {from}</li>
-            <li className="list-group-item">To: {to}</li>
-            <li className="list-group-item">Location: {location}</li>
-            <li className="list-group-item">Description: {description}</li>
-          </ul>
-        ) : null}
+      <div className="card card-body mb-3 cardShadow">
+        <div className="row">
+          <div className="col-md-3">
+            <img
+              src={companyLogo}
+              alt="My profile picture"
+              className="img-thumbnail experienceLogo"
+            />
+          </div>
+          <div className="col-md-9">
+            <h4>
+              {from} to {to} - {title} at {company}{' '}
+              <i
+                onClick={() =>
+                  this.setState({
+                    showExperienceInfo: !this.state.showExperienceInfo
+                  })
+                }
+                className="fas fa-sort-down"
+                style={{ cursor: 'pointer' }}
+              />
+            </h4>
+            {showExperienceInfo ? (
+              <ul className="list-group">
+                <li className="list-group-item">
+                  <b>Location:</b> {location}
+                </li>
+                <li className="list-group-item">
+                  <b>Description:</b> {description}
+                </li>
+              </ul>
+            ) : null}
+          </div>
+        </div>
       </div>
     );
   }

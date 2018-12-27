@@ -40,6 +40,9 @@
 #cvNavItems {
   font-size: 17px;
 }
+#cvNavBar {
+  margin-bottom: '20px';
+}
 
 .sticky {
   position: fixed;
@@ -60,7 +63,6 @@
 }
 
 @media (max-width: 400px) {
-  /* CSS that should be displayed if width is equal to or less than 800px goes here */
   #cvPhoto {
     width: 200px;
     height: 200px;
@@ -69,4 +71,26 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .experienceLogo {
+    width: 120px;
+    height: 120px;
+    box-shadow: 5px 5px #007bff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
+}
+
+/* Experience styles */
+
+.experienceLogo {
+  width: 120px;
+  height: 120px;
+  box-shadow: 5px 5px #007bff;
+}
+
+.cardShadow {
+  box-shadow: 10px 10px #007bff;
 }

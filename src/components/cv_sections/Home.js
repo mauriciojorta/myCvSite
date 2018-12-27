@@ -6,7 +6,7 @@ import Experiences from './Experiences';
 export default function Home() {
   return (
     <React.Fragment>
-      <div>
+      <section>
         <h2 className="display-4 mb-2">Who am I?</h2>
         <p className="lead">
           Computer Software Engineer graduate from the University of La Laguna
@@ -15,15 +15,15 @@ export default function Home() {
           like HTML, CSS and JavaScript. I also possess knowledge about Software
           Engineering and software design patterns.
         </p>
-      </div>
-      <hr />
-      <div>
+      </section>
+
+      <section>
         <BasicData />
-      </div>
-      <hr />
-      <div>
+      </section>
+
+      <section>
         <Experiences />
-      </div>
+      </section>
     </React.Fragment>
   );
 }

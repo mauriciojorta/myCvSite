@@ -19,8 +19,6 @@ class Navbar extends Component {
     // Navbar name
     const { branding } = this.props;
 
-    //Navbar style
-    const navbarStyle = { marginBottom: '20px' };
     // Navbar toggle styles
     const collapsed = this.state.collapsed;
     const classOne = collapsed
@@ -32,8 +30,7 @@ class Navbar extends Component {
 
     return (
       <nav
-        className="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-primary"
-        style={navbarStyle}
+        className="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-primary fixed-top sticky"
         id="cvNavbar"
       >
         <div className="container-fluid">
@@ -53,7 +50,11 @@ class Navbar extends Component {
             <span className="navbar-toggler-icon" />
           </button>
           <div className={`${classOne}`} id="navbarResponsive">
-            <ul className="navbar-nav" id="cvNavItems">
+            <ul
+              className="navbar-nav"
+              id="cvNavItems"
+              onClick={this.toggleNavbar}
+            >
               <li className="nav-item active">
                 <Link className="nav-link" to="/">
                   Home

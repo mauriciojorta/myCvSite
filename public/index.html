@@ -46,24 +46,4 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
-  <script>
-    window.onscroll = function() {
-      myFunction();
-    };
-
-    var navbar = document.getElementById('cvNavbar');
-    var basicInfo = document.getElementById('basicInfo');
-    var sticky = navbar.offsetTop;
-
-    console.log(sticky);
-    console.log(basicInfo.offsetTop);
-
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add('sticky');
-      } else {
-        navbar.classList.remove('sticky');
-      }
-    }
-  </script>
 </html>
