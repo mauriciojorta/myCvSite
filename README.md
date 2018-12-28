@@ -2,4 +2,4 @@
 
 Personal CV website implementation built with React.
 
-Visit it on https://mauriciojorta.github.io/mycv.
+Visit it on https://mauriciojorta.github.io/myCvSite.
