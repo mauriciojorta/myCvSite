@@ -2,7 +2,7 @@
   "name": "cv-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mauriciojorta.github.io/mycv",
+  "homepage": "https://mauriciojorta.github.io/myCvSite",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.2.1",
