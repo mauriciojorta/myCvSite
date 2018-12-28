@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Junior Programmer/Analyst",
+    "company": "Indra",
+    "companyLogo": "companies/indra.jpg",
+    "location": "Alcobendas, Madrid, Spain",
+    "from": "Feb/2018",
+    "to": "Present",
+    "description": ""
+  },
+  {
+    "id": 2,
+    "title": "Intern",
+    "company": "Plan&Play",
+    "companyLogo": "companies/planplay.png",
+    "location": "San Cristóbal de La Laguna, Tenerife, Spain",
+    "from": "Mar/2017",
+    "to": "May/2017",
+    "description": ""
+  }
+]
