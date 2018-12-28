@@ -7,6 +7,12 @@ class Education extends Component {
     showEducationInfo: false
   };
 
+  showEducationInfoFunc = () => {
+    this.setState({
+      showEducationInfo: !this.state.showEducationInfo
+    });
+  };
+
   render() {
     const {
       id,
@@ -28,17 +34,15 @@ class Education extends Component {
               src={institutionLogo}
               alt="Institution logo"
               className="img-thumbnail educationLogo"
+              style={{ cursor: 'pointer' }}
+              onClick={this.showEducationInfoFunc}
             />
           </div>
           <div className="col-md-9">
             <h4>
               {from} to {to} - {title} at {institution}{' '}
               <i
-                onClick={() =>
-                  this.setState({
-                    showEducationInfo: !this.state.showEducationInfo
-                  })
-                }
+                onClick={this.showEducationInfoFunc}
                 className="fas fa-sort-down"
                 style={{ cursor: 'pointer' }}
               />

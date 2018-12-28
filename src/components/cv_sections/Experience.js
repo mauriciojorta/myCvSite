@@ -7,6 +7,12 @@ class Experience extends Component {
     showExperienceInfo: false
   };
 
+  showExperienceInfoFunc = () => {
+    this.setState({
+      showExperienceInfo: !this.state.showExperienceInfo
+    });
+  };
+
   render() {
     const {
       id,
@@ -28,17 +34,15 @@ class Experience extends Component {
               src={companyLogo}
               alt="Company logo"
               className="img-thumbnail experienceLogo"
+              style={{ cursor: 'pointer' }}
+              onClick={this.showExperienceInfoFunc}
             />
           </div>
           <div className="col-md-9">
             <h4>
               {from} to {to} - {title} at {company}{' '}
               <i
-                onClick={() =>
-                  this.setState({
-                    showExperienceInfo: !this.state.showExperienceInfo
-                  })
-                }
+                onClick={this.showExperienceInfoFunc}
                 className="fas fa-sort-down"
                 style={{ cursor: 'pointer' }}
               />

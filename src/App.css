@@ -63,8 +63,55 @@
 }
 
 section {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
+
+/* Experience styles */
+
+.experienceLogo {
+  width: 120px;
+  height: 120px;
+  box-shadow: 5px 5px #007bff;
+  -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s, height 1s;
+}
+
+.experienceLogo:hover {
+  width: 130px;
+  height: 130px;
+}
+
+.educationLogo {
+  width: 120px;
+  height: 120px;
+  box-shadow: 5px 5px #007bff;
+  -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s, height 1s;
+}
+
+.educationLogo:hover {
+  width: 130px;
+  height: 130px;
+}
+
+.certificationLogo {
+  width: 120px;
+  height: 120px;
+  box-shadow: 5px 5px #007bff;
+  -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s, height 1s;
+}
+
+.certificationLogo:hover {
+  width: 130px;
+  height: 130px;
+}
+
+.cardShadow {
+  box-shadow: 10px 10px #007bff;
+}
+
+/* Styles for mobile devices */
 
 @media (max-width: 400px) {
   #cvPhoto {
@@ -77,9 +124,6 @@ section {
   }
 
   .experienceLogo {
-    width: 120px;
-    height: 120px;
-    box-shadow: 5px 5px #007bff;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -87,30 +131,16 @@ section {
   }
 
   .educationLogo {
-    width: 120px;
-    height: 120px;
-    box-shadow: 5px 5px #007bff;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
   }
-}
 
-/* Experience styles */
-
-.experienceLogo {
-  width: 120px;
-  height: 120px;
-  box-shadow: 5px 5px #007bff;
-}
-
-.educationLogo {
-  width: 120px;
-  height: 120px;
-  box-shadow: 5px 5px #007bff;
-}
-
-.cardShadow {
-  box-shadow: 10px 10px #007bff;
+  .certificationLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
 }
