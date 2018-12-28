@@ -56,7 +56,7 @@ class Navbar extends Component {
               onClick={this.toggleNavbar}
             >
               <li className="nav-item active">
-                <Link className="nav-link" to="/#introductionSection">
+                <Link className="nav-link" to="/">
                   Home
                 </Link>
               </li>

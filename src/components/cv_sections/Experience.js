@@ -15,7 +15,6 @@ class Experience extends Component {
 
   render() {
     const {
-      id,
       title,
       company,
       companyLogo,

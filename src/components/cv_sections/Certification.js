@@ -15,7 +15,6 @@ class Certification extends Component {
 
   render() {
     const {
-      id,
       name,
       organization,
       organizationLogo,
@@ -83,7 +82,7 @@ class Certification extends Component {
                       rel="noopener noreferrer"
                     >
                       {' '}
-                      See credential{' '}
+                      See Credential{' '}
                     </a>
                   </li>
                 ) : null}

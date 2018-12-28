@@ -8,7 +8,7 @@ export default function BasicData() {
       <ul className="lead">
         <img
           src={cvPhoto}
-          alt="My profile picture"
+          alt="My CV picture"
           className="img-thumbnail"
           id="cvPhoto"
         />

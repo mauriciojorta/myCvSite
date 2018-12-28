@@ -15,7 +15,6 @@ class Education extends Component {
 
   render() {
     const {
-      id,
       title,
       institution,
       institutionLogo,
