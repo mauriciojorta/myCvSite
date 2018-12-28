@@ -1,4 +1,9 @@
-import { GET_EXPERIENCES, GET_EDUCATIONS, GET_CERTIFICATIONS } from './types';
+import {
+  GET_EXPERIENCES,
+  GET_EDUCATIONS,
+  GET_CERTIFICATIONS,
+  GET_PROJECTS
+} from './types';
 import axios from 'axios';
 
 export const getExperiences = () => async dispatch => {
@@ -27,6 +32,16 @@ export const getCertifications = () => async dispatch => {
 
   dispatch({
     type: GET_CERTIFICATIONS,
+    payload: res.data
+  });
+};
+
+export const getProjects = () => async dispatch => {
+  console.log('Flag');
+  const res = await axios.get('collections/projectList.json');
+
+  dispatch({
+    type: GET_PROJECTS,
     payload: res.data
   });
 };

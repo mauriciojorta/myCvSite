@@ -1,22 +1,17 @@
 import React from 'react';
 
+import Introduction from './Introduction';
 import BasicData from './BasicData';
 import Experiences from './Experiences';
 import Educations from './Educations';
 import Certifications from './Certifications';
+import Projects from './Projects';
 
 export default function Home() {
   return (
     <React.Fragment>
       <section>
-        <h2 className="display-4 mb-2">Who am I?</h2>
-        <p className="lead">
-          Computer Software Engineer graduate from the University of La Laguna
-          (Spain), with experience in the creation of software solutions with
-          programming languages such as C++, Java and those of web development
-          like HTML, CSS and JavaScript. I also possess knowledge about Software
-          Engineering and software design patterns.
-        </p>
+        <Introduction />
       </section>
 
       <section>
@@ -33,6 +28,10 @@ export default function Home() {
 
       <section>
         <Certifications />
+      </section>
+
+      <section>
+        <Projects />
       </section>
     </React.Fragment>
   );

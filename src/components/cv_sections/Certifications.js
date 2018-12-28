@@ -15,7 +15,7 @@ class Certifications extends Component {
     return (
       <React.Fragment>
         <div id="certificationSection">
-          <h2 className="display-4 mb-2">Certification</h2>
+          <h2 className="display-4 mb-2">Certifications</h2>
           {certifications.map(certification => (
             <Certification
               key={certification.id}

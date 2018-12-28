@@ -56,32 +56,37 @@ class Navbar extends Component {
               onClick={this.toggleNavbar}
             >
               <li className="nav-item active">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/#introductionSection">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#basicInfo">
+                <Link className="nav-link" to="/#basicInfo">
                   Basic Info
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#experienceSection">
+                <Link className="nav-link" to="/#experienceSection">
                   Experience
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#educationSection">
+                <Link className="nav-link" to="/#educationSection">
                   Education
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#certificationSection">
+                <Link className="nav-link" to="/#certificationSection">
                   Licenses and Certifications
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#">
+                <Link className="nav-link" to="/#projectSection">
+                  Projects
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/minigame">
                   Play a game
                 </Link>
               </li>

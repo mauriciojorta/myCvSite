@@ -44,6 +44,16 @@ export default function BasicData() {
             My LinkedIn Profile
           </a>
         </li>
+        <li>
+          <b>GitHub: </b>{' '}
+          <a
+            href="https://github.com/mauriciojorta"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            My GitHub Profile
+          </a>
+        </li>
       </ul>
     </div>
   );

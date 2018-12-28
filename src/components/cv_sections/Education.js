@@ -26,6 +26,8 @@ class Education extends Component {
     } = this.props.education;
     const { showEducationInfo } = this.state;
 
+    const thereIsDescription = description != null && description.length > 1;
+
     return (
       <div className="card card-body mb-3 cardShadow">
         <div className="row">
@@ -52,9 +54,11 @@ class Education extends Component {
                 <li className="list-group-item">
                   <b>Location:</b> {location}
                 </li>
-                <li className="list-group-item">
-                  <b>Description:</b> {description}
-                </li>
+                {thereIsDescription ? (
+                  <li className="list-group-item">
+                    <b>Description:</b> {description}
+                  </li>
+                ) : null}
               </ul>
             ) : null}
           </div>
