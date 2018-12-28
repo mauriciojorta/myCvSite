@@ -5,7 +5,7 @@ export default function Minigame() {
     <div id="gameSection">
       <div class="embed-container">
         <iframe
-          src="http://meteor-destroyer.herokuapp.com/"
+          src="https://meteor-destroyer.herokuapp.com/"
           title="Meteor Destroyer"
           width="800px"
           height="800px"
