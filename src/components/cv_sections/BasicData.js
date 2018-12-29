@@ -4,7 +4,7 @@ import cvPhoto from './fotoCV.png';
 export default function BasicData() {
   return (
     <div id="basicInfo">
-      <h2 className="display-4 mb-3">Basic info</h2>
+      <h1 className="display-4 mb-3">Basic info</h1>
       <ul className="lead">
         <img
           src={cvPhoto}

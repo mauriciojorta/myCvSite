@@ -15,7 +15,7 @@ class Educations extends Component {
     return (
       <React.Fragment>
         <div id="educationSection">
-          <h2 className="display-4 mb-2">Education</h2>
+          <h1 className="display-4 mb-2">Education</h1>
           {educations.map(education => (
             <Education key={education.id} education={education} />
           ))}

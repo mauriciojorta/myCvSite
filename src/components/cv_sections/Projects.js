@@ -15,7 +15,7 @@ class Projects extends Component {
     return (
       <React.Fragment>
         <div id="projectSection">
-          <h2 className="display-4 mb-2">Projects</h2>
+          <h1 className="display-4 mb-2">Projects</h1>
           {projects.map(project => (
             <Project key={project.id} project={project} />
           ))}

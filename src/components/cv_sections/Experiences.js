@@ -15,7 +15,7 @@ class Experiences extends Component {
     return (
       <React.Fragment>
         <div id="experienceSection">
-          <h2 className="display-4 mb-2">Experience</h2>
+          <h1 className="display-4 mb-2">Experience</h1>
           {experiences.map(experience => (
             <Experience key={experience.id} experience={experience} />
           ))}

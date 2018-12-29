@@ -3,7 +3,7 @@ import React from 'react';
 export default function Introduction() {
   return (
     <div id="introductionSection">
-      <h2 className="display-4 mb-2">Who am I?</h2>
+      <h1 className="display-4 mb-2">Who am I?</h1>
       <p className="lead">
         <b>Computer Software Engineer</b> graduate from the University of La
         Laguna (Spain), with experience in the creation of software solutions

@@ -130,7 +130,11 @@ section {
 
 /* Styles for mobile devices */
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
+  .display-4 {
+    font-size: 50px !important;
+  }
+
   #cvPhoto {
     width: 200px;
     height: 200px;
