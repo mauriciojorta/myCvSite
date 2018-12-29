@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/myCvSite/static/js/runtime~main.762e8326.js"
   },
   {
-    "revision": "f3aa83c016142402ca96",
-    "url": "/myCvSite/static/js/main.f3aa83c0.chunk.js"
+    "revision": "8376c9302f66f7bf7141",
+    "url": "/myCvSite/static/js/main.8376c930.chunk.js"
   },
   {
-    "revision": "7c9948c4a45384653c67",
-    "url": "/myCvSite/static/js/1.7c9948c4.chunk.js"
+    "revision": "cef48b898b06a5c616f6",
+    "url": "/myCvSite/static/js/1.cef48b89.chunk.js"
   },
   {
-    "revision": "f3aa83c016142402ca96",
-    "url": "/myCvSite/static/css/main.e157be9f.chunk.css"
+    "revision": "8376c9302f66f7bf7141",
+    "url": "/myCvSite/static/css/main.9b712770.chunk.css"
   },
   {
-    "revision": "7c9948c4a45384653c67",
+    "revision": "cef48b898b06a5c616f6",
     "url": "/myCvSite/static/css/1.9bc65e3a.chunk.css"
   },
   {
-    "revision": "e190fb51d7d72dc50d9a034b024f0b9f",
+    "revision": "6aafcc0355fe18e4ec37014a5e4b9daf",
     "url": "/myCvSite/index.html"
   }
 ];
