@@ -1,16 +1,16 @@
 {
   "main.css": "/myCvSite/static/css/main.9b712770.chunk.css",
-  "main.js": "/myCvSite/static/js/main.1e0e4a75.chunk.js",
-  "main.js.map": "/myCvSite/static/js/main.1e0e4a75.chunk.js.map",
+  "main.js": "/myCvSite/static/js/main.d68ec8d0.chunk.js",
+  "main.js.map": "/myCvSite/static/js/main.d68ec8d0.chunk.js.map",
   "static/css/1.9bc65e3a.chunk.css": "/myCvSite/static/css/1.9bc65e3a.chunk.css",
   "static/js/1.cef48b89.chunk.js": "/myCvSite/static/js/1.cef48b89.chunk.js",
   "static/js/1.cef48b89.chunk.js.map": "/myCvSite/static/js/1.cef48b89.chunk.js.map",
   "runtime~main.js": "/myCvSite/static/js/runtime~main.762e8326.js",
   "runtime~main.js.map": "/myCvSite/static/js/runtime~main.762e8326.js.map",
-  "static/css/1.9bc65e3a.chunk.css.map": "/myCvSite/static/css/1.9bc65e3a.chunk.css.map",
-  "static/media/fotoCV.png": "/myCvSite/static/media/fotoCV.26332935.png",
   "static/css/main.9b712770.chunk.css.map": "/myCvSite/static/css/main.9b712770.chunk.css.map",
+  "static/media/fotoCV.png": "/myCvSite/static/media/fotoCV.26332935.png",
+  "static/css/1.9bc65e3a.chunk.css.map": "/myCvSite/static/css/1.9bc65e3a.chunk.css.map",
   "index.html": "/myCvSite/index.html",
-  "precache-manifest.bdeca630448f2863172bbc9dd5876759.js": "/myCvSite/precache-manifest.bdeca630448f2863172bbc9dd5876759.js",
+  "precache-manifest.4f1b07b20142e63a710a9b59eda235aa.js": "/myCvSite/precache-manifest.4f1b07b20142e63a710a9b59eda235aa.js",
   "service-worker.js": "/myCvSite/service-worker.js"
 }
