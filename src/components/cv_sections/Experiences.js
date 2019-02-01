@@ -16,7 +16,7 @@ class Experiences extends Component {
       <React.Fragment>
         <div id="experienceSection">
           <h1 className="display-4 mb-2">Experience</h1>
-          {experiences.map(experience => (
+          {experiences.reverse().map(experience => (
             <Experience key={experience.id} experience={experience} />
           ))}
         </div>

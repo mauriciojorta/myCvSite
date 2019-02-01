@@ -16,7 +16,7 @@ class Educations extends Component {
       <React.Fragment>
         <div id="educationSection">
           <h1 className="display-4 mb-2">Education</h1>
-          {educations.map(education => (
+          {educations.reverse().map(education => (
             <Education key={education.id} education={education} />
           ))}
         </div>

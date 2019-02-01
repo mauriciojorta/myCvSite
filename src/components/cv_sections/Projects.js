@@ -16,7 +16,7 @@ class Projects extends Component {
       <React.Fragment>
         <div id="projectSection">
           <h1 className="display-4 mb-2">Projects</h1>
-          {projects.map(project => (
+          {projects.reverse().map(project => (
             <Project key={project.id} project={project} />
           ))}
         </div>
