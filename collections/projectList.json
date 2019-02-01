@@ -1,30 +1,29 @@
 [
   {
     "id": 1,
-    "name": "React Bank Account Manager",
-    "description": "Bank Account Manager developed with React and Firebase, from Brad Traversy's 'React Front To Back' course. It has some small improvements made by me.",
-    "from": "Nov/2018",
-    "to": "Dec/2018",
-    "url": "https://github.com/mauriciojorta/React-bank-account-manager"
+    "name": "Telegram unofficial Metacritic bot",
+    "description": "An unofficial Telegram metacritic bot which helps the user searching and finding basic data from movies, tv series, games and music albums stored in metacritic.com database.",
+    "from": "May/2016",
+    "to": "May/2016",
+    "url": "https://github.com/mauriciojorta/metacriticBot"
   },
   {
     "id": 2,
-    "name": "Routes recommender for rural tourism activities - Final Degree Project (ULL)",
-    "description": "A tourism recommender system based on a client web application which, through the interaction with an external server, calculates and optimizes georeferenced routes about hiking trails in the island of Tenerife. The web application gets their information and draws them in an interactive map as itineraries by stay days, highlighting the data of each of those trails. The user can filter the kind of hiking trails of the routes with a form. \n The web app is publicly available (for now, in Spanish) in this address: http://rutas.iaas.ull.es",
-    "from": "Feb/2017",
-    "to": "Jun/2017",
-    "appUrl": "http://rutas.iaas.ull.es",
-    "url": "https://riull.ull.es/xmlui/handle/915/5127"
+    "name": "Meteor Destroyer",
+    "description": "A simple arcade HTML5 and JavaScript game made with Phaser framework, where you play as a small cannon turret which must face an endless meteor rain falling upon a space base.",
+    "from": "Jun/2016",
+    "to": "Jun/2016",
+    "appUrl": "http://meteor-destroyer.herokuapp.com/",
+    "url": "https://github.com/mauriciojorta/meteor-destroyer"
   },
   {
     "id": 3,
-    "name": "Visual website prototypes - Universidad of La Laguna externships",
-    "description": "Visual website prototipes made with Inkscape and GIMP during my Universidad of La Laguna externships in the Plan&Play/Pro Informática company.",
-    "from": "Mar/2017",
-    "to": "May/2017",
-    "url": "https://github.com/mauriciojorta/WebsitePrototypes"
+    "name": "X-rates scraper server",
+    "description": "A simple web scraper server of x-rates.com currency exchange rates made on node.js as part of a simple app project (see Currency Calculator project for more insight).",
+    "from": "Aug/2016",
+    "to": "Aug/2016",
+    "url": "https://github.com/mauriciojorta/X-rates-scraper-server"
   },
-
   {
     "id": 4,
     "name": "Currency calculator web app",
@@ -33,32 +32,29 @@
     "to": "Aug/2016",
     "url": "https://github.com/mauriciojorta/Currency-Calculator-web-app"
   },
-
   {
     "id": 5,
-    "name": "X-rates scraper server",
-    "description": "A simple web scraper server of x-rates.com currency exchange rates made on node.js as part of a simple app project (see Currency Calculator project for more insight).",
-    "from": "Aug/2016",
-    "to": "Aug/2016",
-    "url": "https://github.com/mauriciojorta/X-rates-scraper-server"
+    "name": "Visual website prototypes - Universidad of La Laguna externships",
+    "description": "Visual website prototipes made with Inkscape and GIMP during my Universidad of La Laguna externships in the Plan&Play/Pro Informática company.",
+    "from": "Mar/2017",
+    "to": "May/2017",
+    "url": "https://github.com/mauriciojorta/WebsitePrototypes"
   },
-
   {
     "id": 6,
-    "name": "Meteor Destroyer",
-    "description": "A simple arcade HTML5 and JavaScript game made with Phaser framework, where you play as a small cannon turret which must face an endless meteor rain falling upon a space base.",
-    "from": "Jun/2016",
-    "to": "Jun/2016",
-    "appUrl": "http://meteor-destroyer.herokuapp.com/",
-    "url": "https://github.com/mauriciojorta/meteor-destroyer"
+    "name": "Routes recommender for rural tourism activities - Final Degree Project (ULL)",
+    "description": "A tourism recommender system based on a client web application which, through the interaction with an external server, calculates and optimizes georeferenced routes about hiking trails in the island of Tenerife. The web application gets their information and draws them in an interactive map as itineraries by stay days, highlighting the data of each of those trails. The user can filter the kind of hiking trails of the routes with a form. \n The web app is publicly available (for now, in Spanish) in this address: http://rutas.iaas.ull.es",
+    "from": "Feb/2017",
+    "to": "Jun/2017",
+    "appUrl": "http://rutas.iaas.ull.es",
+    "url": "https://riull.ull.es/xmlui/handle/915/5127"
   },
-
   {
     "id": 7,
-    "name": "Telegram unofficial Metacritic bot",
-    "description": "An unofficial Telegram metacritic bot which helps the user searching and finding basic data from movies, tv series, games and music albums stored in metacritic.com database.",
-    "from": "May/2016",
-    "to": "May/2016",
-    "url": "https://github.com/mauriciojorta/metacriticBot"
+    "name": "React Bank Account Manager",
+    "description": "Bank Account Manager developed with React and Firebase, from Brad Traversy's 'React Front To Back' course. It has some small improvements made by me.",
+    "from": "Nov/2018",
+    "to": "Dec/2018",
+    "url": "https://github.com/mauriciojorta/React-bank-account-manager"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "main.css": "/myCvSite/static/css/main.9b712770.chunk.css",
-  "main.js": "/myCvSite/static/js/main.8376c930.chunk.js",
-  "main.js.map": "/myCvSite/static/js/main.8376c930.chunk.js.map",
+  "main.js": "/myCvSite/static/js/main.5acd22f6.chunk.js",
+  "main.js.map": "/myCvSite/static/js/main.5acd22f6.chunk.js.map",
   "static/css/1.9bc65e3a.chunk.css": "/myCvSite/static/css/1.9bc65e3a.chunk.css",
   "static/js/1.cef48b89.chunk.js": "/myCvSite/static/js/1.cef48b89.chunk.js",
   "static/js/1.cef48b89.chunk.js.map": "/myCvSite/static/js/1.cef48b89.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/media/fotoCV.png": "/myCvSite/static/media/fotoCV.26332935.png",
   "static/css/main.9b712770.chunk.css.map": "/myCvSite/static/css/main.9b712770.chunk.css.map",
   "index.html": "/myCvSite/index.html",
-  "precache-manifest.adc55ead5c46efda83dd57edb5c13642.js": "/myCvSite/precache-manifest.adc55ead5c46efda83dd57edb5c13642.js",
+  "precache-manifest.c7a713677e0ee63413ab6d5aac3d0114.js": "/myCvSite/precache-manifest.c7a713677e0ee63413ab6d5aac3d0114.js",
   "service-worker.js": "/myCvSite/service-worker.js"
 }
