@@ -7,7 +7,7 @@
     "location": "San Cristóbal de La Laguna, Tenerife, Spain",
     "from": "Mar/2017",
     "to": "May/2017",
-    "description": ""
+    "description": "Web design with tools such as Inkscape and Wordpress, and web development as well using HTML, CSS, JavaScript and PHP."
   },
   {
     "id": 2,
@@ -16,6 +16,16 @@
     "companyLogo": "companies/indra.jpg",
     "location": "Alcobendas, Madrid, Spain",
     "from": "Feb/2018",
+    "to": "Mar/2019",
+    "description": "Development of new features, tests and correction of issues for the B2BConecta projects, a branch of the company specialized in electronic invoicing. Java (with frameworks such as Spring), MySQL and XML (specially SOAP web services) were the most used technologies, but also some CSS and JavaScript in projects with web components."
+  },
+  {
+    "id": 3,
+    "title": "Developer",
+    "company": "Babel",
+    "companyLogo": "companies/babel.png",
+    "location": "Madrid, Spain",
+    "from": "Mar/2019",
     "to": "Present",
     "description": ""
   }
