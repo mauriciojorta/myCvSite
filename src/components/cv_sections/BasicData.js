@@ -1,5 +1,5 @@
 import React from 'react';
-import cvPhoto from './fotoCV.png';
+import cvPhoto from './fotoCV.jpg';
 
 export default function BasicData() {
   return (

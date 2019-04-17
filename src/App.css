@@ -57,8 +57,6 @@
 /* Home styles */
 
 #cvPhoto {
-  width: 200px;
-  height: 200px;
   float: right;
 }
 
@@ -136,8 +134,6 @@ section {
   }
 
   #cvPhoto {
-    width: 200px;
-    height: 200px;
     float: none;
     display: block;
     margin-left: auto;
