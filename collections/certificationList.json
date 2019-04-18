@@ -78,5 +78,15 @@
     "expirationDate": "No expiration date",
     "credentialId": "UC-AUHGUT9D",
     "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-AUHGUT9D.jpg?l=null"
+  },
+  {
+    "id": 9,
+    "name": "DevOps para desarrolladores: Kubernetes, Ansible, Jenkins y Docker",
+    "organization": "CLEFormación",
+    "organizationLogo": "organizations/cleformacion.png",
+    "issueDate": "Apr/2019",
+    "expirationDate": "No expiration date",
+    "credentialId": "",
+    "credentialUrl": ""
   }
 ]
