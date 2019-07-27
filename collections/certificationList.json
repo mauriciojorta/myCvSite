@@ -88,5 +88,15 @@
     "expirationDate": "No expiration date",
     "credentialId": "",
     "credentialUrl": ""
+  },
+  {
+    "id": 10,
+    "name": "AWS Innovate Online Conference - Global Edition 2019 Certificate of Attendance",
+    "organization": "Amazon Web Services",
+    "organizationLogo": "organizations/aws-logo.png",
+    "issueDate": "Jul/2019",
+    "expirationDate": "No expiration date",
+    "credentialId": "",
+    "credentialUrl": "certificates/Certificate-Of-Attendance July Edition 2019 - Mauricio Orta.jpg"
   }
 ]
