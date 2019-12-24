@@ -108,5 +108,25 @@
     "expirationDate": "No expiration date",
     "credentialId": "UC-OVU1QD8Q",
     "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-OVU1QD8Q.jpg?l=en_US"
+  },
+  {
+    "id": 12,
+    "name": "Master ASP.NET MVC Core 3",
+    "organization": "Udemy",
+    "organizationLogo": "organizations/udemy.png",
+    "issueDate": "Dec/2019",
+    "expirationDate": "No expiration date",
+    "credentialId": "UC-3QCXVKVX",
+    "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-3QCXVKVX.jpg?l=null"
+  },
+  {
+    "id": 13,
+    "name": "NodeJS - The Complete Guide (incl. MVC, REST APIs, GraphQL)",
+    "organization": "Udemy",
+    "organizationLogo": "organizations/udemy.png",
+    "issueDate": "Dec/2019",
+    "expirationDate": "No expiration date",
+    "credentialId": "UC-M80EQV2F",
+    "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-M80EQV2F.jpg?l=en_US"
   }
 ]
